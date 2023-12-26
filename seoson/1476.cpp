@@ -1,10 +1,9 @@
 #include <iostream>
 
-int ans,E_TEMP,S_TEMP,M_TEMP;
+int ans,E_TEMP,S_TEMP,M_TEMP,E,S,M;
 using namespace std;
 int main()
 {
-	int E,S,M;
 	cin >> E >> S >> M;
 	while (1)
 	{
