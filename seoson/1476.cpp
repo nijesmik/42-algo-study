@@ -1,14 +1,10 @@
 #include <iostream>
 
+int ans,E_TEMP,S_TEMP,M_TEMP;
 using namespace std;
 int main()
 {
-	int ans,E_TEMP,S_TEMP,M_TEMP,E,S,M;
-
-	ans = 0;
-	E_TEMP = 0;
-	S_TEMP = 0;
-	M_TEMP = 0;
+	int E,S,M;
 	cin >> E >> S >> M;
 	while (1)
 	{
