@@ -34,24 +34,14 @@ public class 톱니바퀴 {
         dirs[idx] = d;
         for (int i = idx+1; i < 4; i++) {
             if (gears[i][6] == gears[i-1][2]) break;
-            if (d == 1) {
-                d = -1;
-                dirs[i] = d;
-            } else {
-                d = 1;
-                dirs[i] = d;
-            }
+            d *= -1;
+            dirs[i] = d;
         }
         d = dir;
         for (int i = idx-1; i >= 0; i--) {
             if (gears[i][2] == gears[i+1][6]) break;
-            if (d == 1) {
-                d = -1;
-                dirs[i] = d;
-            } else {
-                d = 1;
-                dirs[i] = d;
-            }
+            d *= -1;
+            dirs[i] = d;
         }
         for (int i = 0; i < 4; i++) {
             if (dirs[i] == 1) {
