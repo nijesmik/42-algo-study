@@ -66,11 +66,11 @@
 | :--: | :-: | :--: | :-: |
 | 23.12.26 (화) | [날짜 계산](https://www.acmicpc.net/problem/1476) | <img src="https://static.solved.ac/tier_small/6.svg" height="25" align="center"/> | 브루트 포스 |
 | 23.12.27 (수) | [톱니바퀴](https://www.acmicpc.net/problem/14891) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | 시뮬레이션 |
-| 24.12.29 (금) | [랜선 자르기](https://www.acmicpc.net/problem/1654) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> | - |
+| 24.12.29 (금) | [늑대와 양](https://www.acmicpc.net/problem/16956) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | - |
 
 
 <!-- problem table template
 
-| 24.00.00 (❓) | [❓](https://www.acmicpc.net/problem/❓) | <img src="https://static.solved.ac/tier_small/❓.svg" height="25" align="center"/> | 이분 탐색 |
+| 24.00.00 (❓) | [❓](https://www.acmicpc.net/problem/❓) | <img src="https://static.solved.ac/tier_small/❓.svg" height="25" align="center"/> | BFS |
 
  -->
