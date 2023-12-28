@@ -57,18 +57,24 @@
 ### PR
 
 ```
-[<problem_name>] <intra_id>
+[<week>] <intra_id>
 ```
+
+1. PR 제목은 모두 소문자로 작성
+
+2. 해당하는 요일의 라벨을 함께 달아주세요!
 
 ## ✍️ 문제
 
-| 제출일 | 문제 | 난이도 | 주제 |
-| :--: | :-: | :--: | :-: |
-| 23.12.26 (화) | [날짜 계산](https://www.acmicpc.net/problem/1476) | <img src="https://static.solved.ac/tier_small/6.svg" height="25" align="center"/> | - |
+| 분류 | 제출일 | 문제 | 난이도 | 주제 |
+| :-: | :--: | :-: | :--: | :-: |
+| week01 | 23.12.26 (화) | [날짜 계산](https://www.acmicpc.net/problem/1476) | <img src="https://static.solved.ac/tier_small/6.svg" height="25" align="center"/> | 브루트 포스 |
+|| 23.12.27 (수) | [톱니바퀴](https://www.acmicpc.net/problem/14891) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | 시뮬레이션 |
+|| 24.12.29 (금) | [늑대와 양](https://www.acmicpc.net/problem/16956) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | - |
 
 
 <!-- problem table template
 
-| 24.00.00 (❓) | [❓](https://www.acmicpc.net/problem/❓) | <img src="https://static.solved.ac/tier_small/❓.svg" height="25" align="center"/> | 브루트 포스 |
+| 24.00.00 (❓) | [❓](https://www.acmicpc.net/problem/❓) | <img src="https://static.solved.ac/tier_small/❓.svg" height="25" align="center"/> | BFS |
 
  -->
