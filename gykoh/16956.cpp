@@ -9,7 +9,8 @@ int main() {
 	for (int i = 0; i < R; i++)
 		cin >> field[i];
 
-	for (int i = 0; i < R; i++) {
+	for (int i = 0; i < R; i++) 
+	{
 		for (int j = 0; j < C; j++) 
 		{
 			if (field[i][j] == 'S') 
