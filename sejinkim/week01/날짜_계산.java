@@ -1,4 +1,4 @@
-package sejinkim;
+package week01;
 import java.util.Scanner;
 
 public class 날짜_계산 {
