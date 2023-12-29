@@ -14,7 +14,7 @@ int	main(void)
 
 	for (int i = 0; i < row; i++)
 	{
-		for (int j = 0; i < col; j++)
+		for (int j = 0; j < col; j++)
 		{
 			if (farm[i][j] == 'W')
 			{
@@ -34,7 +34,7 @@ int	main(void)
 		}
 	}
 
-	cout << 1;
+	cout << 1 << endl;
 	for (int i = 0; i < row; i++)
 		cout << farm[i] << endl;
 
