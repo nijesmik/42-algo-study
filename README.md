@@ -72,11 +72,13 @@
 || 23.12.27 (수) | [톱니바퀴](https://www.acmicpc.net/problem/14891) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | 시뮬레이션 |
 || 23.12.29 (금) | [늑대와 양](https://www.acmicpc.net/problem/16956) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | BFS |
 || 23.12.30 (토) | [치킨 배달](https://www.acmicpc.net/problem/15686) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | 시뮬레이션 |
-|| 24.01.02 (화) | [다음 순열](https://www.acmicpc.net/problem/10972) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | - |
+| week02 | 24.01.02 (화) | [다음 순열](https://www.acmicpc.net/problem/10972) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | 순열 |
+|| 24.01.03 (수) | [컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | 시뮬레이션 |
+|| 24.01.05 (금) | [수들의 합 2](https://www.acmicpc.net/problem/2003) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> | - |
 
 
 <!-- problem table template
 
-|| 24.00.00 (❓) | [❓](https://www.acmicpc.net/problem/❓) | <img src="https://static.solved.ac/tier_small/❓.svg" height="25" align="center"/> | 순열 |
+|| 24.00.00 (❓) | [❓](https://www.acmicpc.net/problem/❓) | <img src="https://static.solved.ac/tier_small/❓.svg" height="25" align="center"/> | 투 포인터 |
 
  -->
