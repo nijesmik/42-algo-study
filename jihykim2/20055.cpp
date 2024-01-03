@@ -37,9 +37,10 @@ int	main(void)
 
 void	rotate_dq(void)
 {
-	deque<pair<int, bool>>	temp = {{dq.back().first, dq.back().second}};
+	int		temp_dur = dq.back().first;
+	bool	temp_robot = dq.back().second;
 	dq.pop_back();
-	dq.push_front(make_pair(temp.front().first, temp.back().second));
+	dq.push_front(make_pair(temp_dur, temp_robot));
 	dq[N - 1].second = false;			// N번째의 로봇은 무조건 내린다(= false)
 }
 
