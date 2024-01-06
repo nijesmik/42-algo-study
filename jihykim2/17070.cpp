@@ -7,7 +7,7 @@ using namespace std;
 #define DIA	3	// 대각선
 
 int	N, cnt;
-int	home[16][16] = {-1};
+int	home[16][16];
 
 static void	_go_next(int x, int y, int type);
 
@@ -15,13 +15,23 @@ int	main(void)
 {
 	cin >> N;
 
-	for (int i = 0; i < N; i++)
-		for (int j = 0; j < N; j++)
-			cin >> home[i][j];
+	for (int i = 0; i < 16; i++)
+	{
+		for (int j = 0; j < 16; j++)
+		{
+			if (i < N && j < N)
+				cin >> home[i][j];
+			else
+				home[i][j] = 1;
+		}
+	}
 
-	// for (int i = 0; i < 16; i++)
-	// 	for (int j = 0; j < 16; j++)
-	// 		cout << home[i][j];
+	for (int i = 0; i < 16; i++)
+	{
+		for (int j = 0; j < 16; j++)
+			cout << home[i][j];
+		cout << endl;
+	}
 
 	_go_next(0, 1, HOR);
 
@@ -32,8 +42,10 @@ int	main(void)
 
 static void	_go_next(int x, int y, int type)
 {
-	if (x == N - 1 && y == N - 1)
+	cout << "x: " << x << ", y: " << y << ", type: " << type << endl;
+	if (x >= N - 1 && y >= N - 1)
 	{
+		cout << "here" << endl;
 		cnt++;
 		return ;
 	}
