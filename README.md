@@ -74,11 +74,13 @@
 || 23.12.30 (토) | [치킨 배달](https://www.acmicpc.net/problem/15686) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | 시뮬레이션 |
 | week02 | 24.01.02 (화) | [다음 순열](https://www.acmicpc.net/problem/10972) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | 순열 |
 || 24.01.03 (수) | [컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | 시뮬레이션 |
-|| 24.01.05 (금) | [수들의 합 2](https://www.acmicpc.net/problem/2003) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> | - |
+|| 24.01.05 (금) | [수들의 합 2](https://www.acmicpc.net/problem/2003) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> | 투 포인터 |
+|| 24.01.06 (토) | [파이프 옮기기 1](https://www.acmicpc.net/problem/17070) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | 시뮬레이션 |
+| week03 | 24.01.09 (화) | [최단경로](https://www.acmicpc.net/problem/1753) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | 다익스트라 알고리즘 |
 
 
 <!-- problem table template
 
-|| 24.00.00 (❓) | [❓](https://www.acmicpc.net/problem/❓) | <img src="https://static.solved.ac/tier_small/❓.svg" height="25" align="center"/> | 투 포인터 |
+|| 24.00.00 (❓) | [❓](https://www.acmicpc.net/problem/❓) | <img src="https://static.solved.ac/tier_small/❓.svg" height="25" align="center"/> | - |
 
  -->
