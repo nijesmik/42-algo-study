@@ -50,35 +50,3 @@ static void	_go_next(int x, int y, int type)
 	if (y + 1 < N && x + 1 < N && home[x + 1][y + 1] == 0 && home[x][y + 1] == 0 && home[x + 1][y] == 0)
 		_go_next(x + 1, y + 1, DIA);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// static void	_dfs(int x, int y, int** home, int type)
-// {
-// 	if (x == N - 1 && y == N - 1)
-// 	{
-// 		cnt++;
-// 		return ;
-// 	}
-
-// }
-
-
-/*
-0 0 0 0 0
-0 0 0 0 0
-0 0 0 0 0
-0 0 0 0 0
-0 0 0 0 0
-*/
