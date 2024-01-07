@@ -35,13 +35,13 @@ void choose_min_distance()
 		total_min_distance = total_distance;
 }
 
-void choose_chicken(int idx, int cnt) 
+void choose_chicken(int idx, int cnt)
 {
 	if (cnt == M)
 		choose_min_distance();
-	for (int i = idx; i < chicken_r.size(); i++) 
+	for (int i = idx; i < chicken_r.size(); i++)
 	{
-		if (!visited[i]) 
+		if (!visited[i])
 		{
 			visited[i] = true;
 			choose_chicken(i, cnt + 1);
