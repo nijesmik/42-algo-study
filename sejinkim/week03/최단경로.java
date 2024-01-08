@@ -20,14 +20,12 @@ public class 최단경로 {
         dist = new int[V + 1];
         Arrays.fill(dist, INF);
         dist[S] = 0;
-        boolean[] visited = new boolean[V + 1];
         PriorityQueue<Node> pq = new PriorityQueue<>();
         pq.add(new Node(S));
         while (!pq.isEmpty()) {
             Node cur = pq.poll();
-            if (visited[cur.idx])
+            if (dist[cur.idx] < cur.cost)
                 continue;
-            visited[cur.idx] = true;
             for (Node next : nodes[cur.idx].list) {
                 if (next.cost + cur.cost < dist[next.idx]) {
                     dist[next.idx] = next.cost + cur.cost;
