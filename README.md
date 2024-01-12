@@ -69,14 +69,17 @@
 | 분류 | 제출일 | 문제 | 난이도 | 주제 |
 | :-: | :--: | :-: | :--: | :-: |
 | week01 | 23.12.26 (화) | [날짜 계산](https://www.acmicpc.net/problem/1476) | <img src="https://static.solved.ac/tier_small/6.svg" height="25" align="center"/> | 브루트 포스 |
-|| 23.12.27 (수) | [톱니바퀴](https://www.acmicpc.net/problem/14891) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | 시뮬레이션 |
+|| 23.12.27 (수) | [톱니바퀴](https://www.acmicpc.net/problem/14891) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
 || 23.12.29 (금) | [늑대와 양](https://www.acmicpc.net/problem/16956) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | BFS |
-|| 23.12.30 (토) | [치킨 배달](https://www.acmicpc.net/problem/15686) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | 시뮬레이션 |
+|| 23.12.30 (토) | [치킨 배달](https://www.acmicpc.net/problem/15686) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
 | week02 | 24.01.02 (화) | [다음 순열](https://www.acmicpc.net/problem/10972) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | 순열 |
-|| 24.01.03 (수) | [컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | 시뮬레이션 |
+|| 24.01.03 (수) | [컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
 || 24.01.05 (금) | [수들의 합 2](https://www.acmicpc.net/problem/2003) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> | 투 포인터 |
-|| 24.01.06 (토) | [파이프 옮기기 1](https://www.acmicpc.net/problem/17070) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | 시뮬레이션 |
+|| 24.01.06 (토) | [파이프 옮기기 1](https://www.acmicpc.net/problem/17070) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
 | week03 | 24.01.09 (화) | [최단경로](https://www.acmicpc.net/problem/1753) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | 다익스트라 알고리즘 |
+|| 24.01.10 (수) | [상어 초등학교](https://www.acmicpc.net/problem/21608) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
+|| 24.01.12 (금) | [퇴사](https://www.acmicpc.net/problem/14501) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | - |
+|| 24.01.13 (토) | [배열 복원하기](https://www.acmicpc.net/problem/16967) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | [시뮬레이션과 구현](https://www.acmicpc.net/workbook/view/9380) |
 
 
 <!-- problem table template
