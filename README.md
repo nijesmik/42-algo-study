@@ -78,8 +78,10 @@
 || 24.01.06 (토) | [파이프 옮기기 1](https://www.acmicpc.net/problem/17070) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
 | week03 | 24.01.09 (화) | [최단경로](https://www.acmicpc.net/problem/1753) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | 다익스트라 알고리즘 |
 || 24.01.10 (수) | [상어 초등학교](https://www.acmicpc.net/problem/21608) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
-|| 24.01.12 (금) | [퇴사](https://www.acmicpc.net/problem/14501) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | - |
+|| 24.01.12 (금) | [퇴사](https://www.acmicpc.net/problem/14501) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | [다이나믹 프로그래밍](https://www.acmicpc.net/workbook/view/7319) |
 || 24.01.13 (토) | [배열 복원하기](https://www.acmicpc.net/problem/16967) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | [시뮬레이션과 구현](https://www.acmicpc.net/workbook/view/9380) |
+|| 24.01.16 (화) | [수 찾기](https://www.acmicpc.net/problem/1920) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> | - |
+|| 24.01.17 (수) | [LCD Test](https://www.acmicpc.net/problem/2290) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> | [시뮬레이션과 구현](https://www.acmicpc.net/workbook/view/9380) |
 
 
 <!-- problem table template
