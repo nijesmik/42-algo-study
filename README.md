@@ -80,8 +80,10 @@
 || 24.01.10 (수) | [상어 초등학교](https://www.acmicpc.net/problem/21608) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
 || 24.01.12 (금) | [퇴사](https://www.acmicpc.net/problem/14501) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | [다이나믹 프로그래밍](https://www.acmicpc.net/workbook/view/7319) |
 || 24.01.13 (토) | [배열 복원하기](https://www.acmicpc.net/problem/16967) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | [시뮬레이션과 구현](https://www.acmicpc.net/workbook/view/9380) |
-|| 24.01.16 (화) | [수 찾기](https://www.acmicpc.net/problem/1920) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> | - |
+| week04 | 24.01.16 (화) | [수 찾기](https://www.acmicpc.net/problem/1920) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> | [이분탐색](https://www.acmicpc.net/workbook/view/8400) |
 || 24.01.17 (수) | [LCD Test](https://www.acmicpc.net/problem/2290) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> | [시뮬레이션과 구현](https://www.acmicpc.net/workbook/view/9380) |
+|| 24.01.19 (금) | [그림](https://www.acmicpc.net/problem/1926) | <img src="https://static.solved.ac/tier_small/10.svg" height="25" align="center"/> | [BFS](https://www.acmicpc.net/workbook/view/7313) |
+|| 24.01.20 (토) | [상범 빌딩](https://www.acmicpc.net/problem/6593) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | - |
 
 
 <!-- problem table template
