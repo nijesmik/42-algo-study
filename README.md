@@ -70,9 +70,9 @@
 | :-: | :--: | :-: | :--: | :-: |
 | week01 | 23.12.26 (화) | [날짜 계산](https://www.acmicpc.net/problem/1476) | <img src="https://static.solved.ac/tier_small/6.svg" height="25" align="center"/> | 브루트 포스 |
 || 23.12.27 (수) | [톱니바퀴](https://www.acmicpc.net/problem/14891) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
-|| 23.12.29 (금) | [늑대와 양](https://www.acmicpc.net/problem/16956) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | BFS |
+|| 23.12.29 (금) | [늑대와 양](https://www.acmicpc.net/problem/16956) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | [BFS](https://www.acmicpc.net/workbook/view/3990) |
 || 23.12.30 (토) | [치킨 배달](https://www.acmicpc.net/problem/15686) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
-| week02 | 24.01.02 (화) | [다음 순열](https://www.acmicpc.net/problem/10972) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | 순열 |
+| week02 | 24.01.02 (화) | [다음 순열](https://www.acmicpc.net/problem/10972) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | [순열](https://www.acmicpc.net/workbook/view/3964) |
 || 24.01.03 (수) | [컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
 || 24.01.05 (금) | [수들의 합 2](https://www.acmicpc.net/problem/2003) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> | 투 포인터 |
 || 24.01.06 (토) | [파이프 옮기기 1](https://www.acmicpc.net/problem/17070) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
@@ -83,7 +83,11 @@
 | week04 | 24.01.16 (화) | [수 찾기](https://www.acmicpc.net/problem/1920) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> | [이분탐색](https://www.acmicpc.net/workbook/view/8400) |
 || 24.01.17 (수) | [LCD Test](https://www.acmicpc.net/problem/2290) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> | [시뮬레이션과 구현](https://www.acmicpc.net/workbook/view/9380) |
 || 24.01.19 (금) | [그림](https://www.acmicpc.net/problem/1926) | <img src="https://static.solved.ac/tier_small/10.svg" height="25" align="center"/> | [BFS](https://www.acmicpc.net/workbook/view/7313) |
-|| 24.01.20 (토) | [상범 빌딩](https://www.acmicpc.net/problem/6593) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | - |
+|| 24.01.20 (토) | [상범 빌딩](https://www.acmicpc.net/problem/6593) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [BFS](https://www.acmicpc.net/workbook/view/7313) |
+| week05 | 24.01.23 (화) | [강의실 배정](https://www.acmicpc.net/problem/11000) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [그리디](https://www.acmicpc.net/workbook/view/7320) |
+|| 24.01.24 (수) | [레벨 햄버거](https://www.acmicpc.net/problem/16974) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [시뮬레이션과 구현](https://www.acmicpc.net/workbook/view/9389) |
+|| 24.01.26 (금) | [용액 합성하기](https://www.acmicpc.net/problem/14921) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [이분탐색](https://www.acmicpc.net/workbook/view/8400) |
+|| 24.01.27 (토) | [톱니바퀴 (2)](https://www.acmicpc.net/problem/15662) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [시뮬레이션과 구현](https://www.acmicpc.net/workbook/view/9380) |
 
 
 <!-- problem table template
