@@ -19,15 +19,12 @@ public class 강의실_배정 {
         });
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         pq.add(arr[0][1]);
-        int ans = 1;
         for (int i = 1; i < N; i++) {
             if (pq.peek() <= arr[i][0]) {
                 pq.poll();
-            } else {
-                ans++;
             }
             pq.add(arr[i][1]);
         }
-        System.out.println(ans);
+        System.out.println(pq.size());
     }
 }
