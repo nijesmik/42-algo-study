@@ -33,16 +33,14 @@ int main(void) {
         deque<int> directions;
         directions.push_back(rotation[i].second);
         for (int num = rotation[i].first; num < T - 1; num++) {
-            int rrr = directions.back();
             if (wheel[num][2] != wheel[num + 1][6])
-                directions.push_back(rrr * -1);
+                directions.push_back(directions.back() * -1);
             else
                 directions.push_back(0);
         }
         for (int num = rotation[i].first; num > 0; num--) {
-            int rrr = directions.front();
             if (wheel[num][6] != wheel[num - 1][2])
-                directions.push_front(rrr * -1);
+                directions.push_front(directions.front() * -1);
             else
                 directions.push_front(0);
         }
