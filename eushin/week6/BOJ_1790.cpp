@@ -8,12 +8,12 @@ string str;
 int get_length(int n)
 {
 	int length = 0;
-	for (int first = 1, tmp = 1; first <= n; first *= 10, tmp++)
+	for (int s = 1, tmp = 1; s <= n; s *= 10, tmp++)
 	{
-		last = first * 10 - 1;
-		if (last > n)
-			last = n;
-		length += ((last - first) + 1) * tmp;
+		int e = s * 10 - 1;
+		if (e > n)
+			e = n;
+		length += ((e - s) + 1) * tmp;
 	}
 	return length;
 }
@@ -29,7 +29,6 @@ int main()
 		cout << -1 << '\n';
 		return 0;
 	}
-
 	first = 1;
 	last = N;
 	while (first <= last)
@@ -46,5 +45,5 @@ int main()
 	}
 	int length = get_length(pos);
 	str = to_string(pos);
-	cout << str[str.size() - 1 - (length - K)] << ' ';
+	cout << str[str.size() - 1 - (length - K)];
 }
