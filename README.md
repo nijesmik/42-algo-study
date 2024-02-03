@@ -89,9 +89,14 @@
 || 24.01.26 (금) | [용액 합성하기](https://www.acmicpc.net/problem/14921) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [이분탐색](https://www.acmicpc.net/workbook/view/8400) |
 || 24.01.27 (토) | [톱니바퀴 (2)](https://www.acmicpc.net/problem/15662) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [시뮬레이션과 구현](https://www.acmicpc.net/workbook/view/9380) |
 | week06 | 24.01.30 (화) | [랜선 자르기](https://www.acmicpc.net/problem/1654) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> | [이분 탐색](https://www.acmicpc.net/workbook/view/3984) |
-|| 24.02.31 (수) | [배열 돌리기 2](https://www.acmicpc.net/problem/16927) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [시뮬레이션과 구현](https://www.acmicpc.net/workbook/view/9380) |
+|| 24.01.31 (수) | [배열 돌리기 2](https://www.acmicpc.net/problem/16927) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [시뮬레이션과 구현](https://www.acmicpc.net/workbook/view/9380) |
 || 24.02.02 (금) | [수 이어 쓰기 2](https://www.acmicpc.net/problem/1790) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [이분 탐색](https://www.acmicpc.net/workbook/view/3984) |
 || 24.02.03 (토) | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | [시뮬레이션과 구현](https://arc.net/l/quote/wigwwfes) |
+| week07 | 24.02.07 (수) | [로프](https://www.acmicpc.net/problem/2217) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> | [그리디](https://www.acmicpc.net/workbook/view/7320) |
+||| [주사위 굴리기](https://www.acmicpc.net/problem/14499) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
+|| 24.02.10 (토) | [수 묶기](https://www.acmicpc.net/problem/1744) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | [그리디](https://www.acmicpc.net/workbook/view/7320) |
+||| [배열 돌리기 3](https://www.acmicpc.net/problem/16935) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [시뮬레이션과 구현](https://www.acmicpc.net/workbook/view/9380) |
+|| Bonus | [도넛과 막대 그래프](https://school.programmers.co.kr/learn/courses/30/lessons/258711) | Lv.2 | Programmers |
 
 <!-- problem table template
 
