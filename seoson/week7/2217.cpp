@@ -1,7 +1,7 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-int arr[100001];
+int arr[100002];
 int N,max_val;
 int main()
 {
