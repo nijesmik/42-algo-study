@@ -21,3 +21,8 @@ int main(void) {
     cout << weight;
     return 0;
 }
+
+/** [풀이 과정]
+ * priorityqueue를 사용하려다가 sort가 한번만 필요할 것 같아서 일반 배열로 변경
+ * for문을 한번 돌면서 현재 위치부터 남은 개수만큼 곱해서 최댓값과 비교해서 갱신하는 형식으로 진행
+*/
