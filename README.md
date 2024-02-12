@@ -1,70 +1,12 @@
 # 42Seoul Algorithm Study
 
-## 🙋 참여 방법
+## 📝 Documents
 
-1. repository fork
-2. 브랜치 생성
+[**🙋 참여 방법**](https://github.com/nijesmik/42-algo-study/wiki/%F0%9F%99%8B-%EC%B0%B8%EC%97%AC-%EB%B0%A9%EB%B2%95) | 
+[**🤝 Convention**](https://github.com/nijesmik/42-algo-study/wiki/%F0%9F%A4%9D-Convention) | 
+[**🔀 Merge**](https://github.com/nijesmik/42-algo-study/wiki/%F0%9F%94%80-Merge)
 
-   ```sh
-   git checkout -b <branch_name>
-   ```
-
-   > ❓ Q&A <br>
-   > Q1: fork 했는데 그냥 브랜치 안 만들고 해도 되나요? <br>
-   > A1: **안됩니다.**
-   >
-   > Q2: 브랜치 왜 만드는데요? <br>
-   > A2: **충돌 방지**와 **본인 파일만 따로 관리**하기 위해 만듭니다.
-
-   ⚠️ **주의사항** <br>
-   ❌ 브랜치에서 절대 `sync fork` 및 `git pull` 금지 ❌
-
-3. 만든 브랜치를 remote repository에 등록
-
-   ```sh
-   git push -u origin <branch_name>
-   ```
-
-4. 푼 문제를 1️⃣ **본인의 `intra id` 폴더에 넣고**, 2️⃣ **[convention](#commit)에 맞춰** commit
-
-5. 제출 기한까지 본인의 브랜치를 **[convention](#pr)에 맞춰** PR
-
-   📅 제출 기한 : 매주 화/금 23시 59분 59초 <br>
-   💸 벌금 : 3000원 + 1000원 * 누적 미제출 횟수
-
-## 🤝 Convention
-
-### commit
-
-```
-<tag>: <problem_name>
-```
-
-1. 문제별로 각각 commit
-
-2. tag는 소문자로 작성
-
-   | tag      | 설명                                |
-   | -------- | ---------------------------------- |
-   | feat     | 문제 제출                            |
-   | fix      | 틀린 문제 수정                        |
-   | refactor | 맞은 문제 리팩토링                     |
-   | style    | formatting, missing semi colons 등 |
-   | docs     | documentation                      |
-   | chore    | move or rename resources, maintain |
-   | merge    | merge                              |
-
-### PR
-
-```
-[<week>] <intra_id>
-```
-
-1. PR 제목은 모두 소문자로 작성
-
-2. 해당하는 요일의 라벨을 함께 달아주세요!
-
-## ✍️ 문제
+## ✍️ Problems
 
 | 분류 | 제출일 | 문제 | 난이도 | 주제 |
 | :-: | :--: | :-: | :--: | :-: |
@@ -96,13 +38,16 @@
 ||| [주사위 굴리기](https://www.acmicpc.net/problem/14499) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
 || 24.02.10 (토) | [수 묶기](https://www.acmicpc.net/problem/1744) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | [그리디](https://www.acmicpc.net/workbook/view/7320) |
 ||| [배열 돌리기 3](https://www.acmicpc.net/problem/16935) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [시뮬레이션과 구현](https://www.acmicpc.net/workbook/view/9380) |
-|| Bonus | [도넛과 막대 그래프](https://school.programmers.co.kr/learn/courses/30/lessons/258711) | Lv.2 | Programmers |
+| week08 | 24.02.14 (수) | [사탕 게임](https://www.acmicpc.net/problem/3085) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> | [브루트 포스](https://www.acmicpc.net/workbook/view/9371) |
+||| [⚾](https://www.acmicpc.net/problem/17281) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
+|| 24.02.17 (토) | [리모컨](https://www.acmicpc.net/problem/1107) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [브루트 포스](https://www.acmicpc.net/workbook/view/9371) |
+||| [배열 돌리기 1](https://www.acmicpc.net/problem/16926) | <img src="https://static.solved.ac/tier_small/10.svg" height="25" align="center"/> | [시뮬레이션과 구현](https://www.acmicpc.net/workbook/view/9380) |
 
 <!-- problem table template
 
-| week0❓ | 24.00.00 (화) | [❓](https://www.acmicpc.net/problem/❓) | <img src="https://static.solved.ac/tier_small/❓.svg" height="25" align="center"/> | - |
-|| 24.00.00 (수) | [❓](https://www.acmicpc.net/problem/❓) | <img src="https://static.solved.ac/tier_small/❓.svg" height="25" align="center"/> | - |
-|| 24.00.00 (금) | [❓](https://www.acmicpc.net/problem/❓) | <img src="https://static.solved.ac/tier_small/❓.svg" height="25" align="center"/> | - |
+| week0❓ | 24.00.00 (수) | [❓](https://www.acmicpc.net/problem/❓) | <img src="https://static.solved.ac/tier_small/❓.svg" height="25" align="center"/> | - |
+||| [❓](https://www.acmicpc.net/problem/❓) | <img src="https://static.solved.ac/tier_small/❓.svg" height="25" align="center"/> | - |
 || 24.00.00 (토) | [❓](https://www.acmicpc.net/problem/❓) | <img src="https://static.solved.ac/tier_small/❓.svg" height="25" align="center"/> | - |
+||| [❓](https://www.acmicpc.net/problem/❓) | <img src="https://static.solved.ac/tier_small/❓.svg" height="25" align="center"/> | - |
 
  -->
