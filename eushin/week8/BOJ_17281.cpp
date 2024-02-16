@@ -3,7 +3,7 @@
 #include <algorithm>
 #include <string.h>
 using namespace std;
-int result[10][10];
+int result[51][10];
 vector<vector<int>> cases;
 int N, score;
 
@@ -43,21 +43,26 @@ void GetScore()
 			memset(base, false, sizeof(base));
 			while (1)
 			{
+				if (out_count == 3)
+					break;
 				for (int num = start_player; num < 9; num++)
 				{
 					if (result[inning][(*it)[num]] == 1)
 					{
 						for (int x = 3; x > 0; x--)
 						{
-							if (x == 3)
+							if (base[x] == true)
 							{
-								base[x] = false;
-								sum++;
-							}
-							else
-							{
-								base[x+1] = true;
-								base[x] = false;
+								if (x == 3)
+								{
+									base[x] = false;
+									sum++;
+								}
+								else
+								{
+									base[x+1] = true;
+									base[x] = false;
+								}
 							}
 						}
 						base[1] = true;
@@ -66,15 +71,18 @@ void GetScore()
 					{
 						for (int x = 3; x > 0; x--)
 						{
-							if (x == 3 || x == 2)
+							if (base[x] == true)
 							{
-								base[x] = false;
-								sum++;
-							}
-							else
-							{
-								base[x+2] = true;
-								base[x] = false;
+								if (x == 3 || x == 2)
+								{
+									base[x] = false;
+									sum++;
+								}
+								else
+								{
+									base[x+2] = true;
+									base[x] = false;
+								}
 							}
 						}
 						base[2] = true;
@@ -107,9 +115,10 @@ void GetScore()
 						out_count++;
 					if (out_count == 3)
 					{
-						start_player = num + 1;
+						start_player = (num + 1) % 9;
 						break;
 					}
+					start_player = 0;
 				}
 			}
 		}
@@ -122,15 +131,6 @@ void Solution()
 	GetCases();
 	GetScore();
 	cout << score;
-
-
-//	for (auto it = cases.begin(); it != cases.end(); ++it)
-//	{
-//		for (int j = 0; j < 9; j++)
-//			cout << (*it)[j] << " ";
-//		cout << "\n";
-//	}
-
 }
 
 int main()
