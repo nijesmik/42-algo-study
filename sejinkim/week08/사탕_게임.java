@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-    static int N, max;
+    static int N, ans;
     static int[] dr = { 1, 0 }, dc = { 0, 1 };
     static char[][] candies;
 
@@ -11,36 +11,33 @@ public class Main {
         candies = new char[N][];
         for (int i = 0; i < N; i++) {
             candies[i] = sc.next().toCharArray();
-            max = Math.max(max, testRow(candies[i]));
-        }
-        for (int i = 0; i < N; i++) {
-            max = Math.max(max, testColumn(i));
-        }
-        if (max == N) {
-            System.out.println(max);
-            return;
         }
         for (int r = 0; r < N; r++) {
             for (int c = 0; c < N; c++) {
                 test(r, c);
+                if (ans == N) {
+                    break;
+                }
             }
         }
-        System.out.println(max);
+        System.out.println(ans);
     }
 
     static void test(int r, int c) {
+        int max = 0;
         for (int i = 0; i < 2; i++) {
             int nr = r + dr[i], nc = c + dc[i];
-            if (nr < 0 || nr >= N || nc < 0 || nc >= N || candies[r][c] == candies[nr][nc]) {
-                return;
+            if (nr >= N || nc >= N || candies[r][c] == candies[nr][nc]) {
+                continue;
             }
             swap(r, c, nr, nc);
-            max = Math.max(max, testRow(candies[r]));
-            max = Math.max(max, testRow(candies[nr]));
-            max = Math.max(max, testColumn(c));
-            max = Math.max(max, testColumn(nc));
+            for (int j = 0; j < N; j++) {
+                max = Math.max(max, testRow(candies[j]));
+                max = Math.max(max, testColumn(j));
+            }
             swap(r, c, nr, nc);
         }
+        ans = Math.max(ans, max);
     }
 
     static void swap(int r1, int c1, int r2, int c2) {
