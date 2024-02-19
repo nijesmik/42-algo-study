@@ -42,6 +42,18 @@
 ||| [⚾](https://www.acmicpc.net/problem/17281) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
 || 24.02.17 (토) | [리모컨](https://www.acmicpc.net/problem/1107) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [브루트 포스](https://www.acmicpc.net/workbook/view/9371) |
 ||| [배열 돌리기 1](https://www.acmicpc.net/problem/16926) | <img src="https://static.solved.ac/tier_small/10.svg" height="25" align="center"/> | [시뮬레이션과 구현](https://www.acmicpc.net/workbook/view/9380) |
+| week09 | 24.02.21 (수) | [비밀 이메일](https://www.acmicpc.net/problem/2999) | <img src="https://static.solved.ac/tier_small/5.svg" height="25" align="center"/> | - |
+||| [아기 상어 2](https://www.acmicpc.net/problem/17086) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> | - |
+|| 24.02.24 (토) | [이름 궁합](https://www.acmicpc.net/problem/15312) | <img src="https://static.solved.ac/tier_small/6.svg" height="25" align="center"/> | - |
+||| [불!](https://www.acmicpc.net/problem/4179) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | - |
+|| 24.02.25 (일) | [캐슬 디펜스](https://www.acmicpc.net/problem/17135) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/> | - |
+<!--
+| week09 | 24.02.21 (수) | [비밀 이메일](https://www.acmicpc.net/problem/2999) | <img src="https://static.solved.ac/tier_small/5.svg" height="25" align="center"/> | [문자열](https://www.acmicpc.net/workbook/view/14409) |
+||| [아기 상어 2](https://www.acmicpc.net/problem/17086) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> | [BFS](https://www.acmicpc.net/workbook/view/9387) |
+|| 24.02.24 (토) | [이름 궁합](https://www.acmicpc.net/problem/15312) | <img src="https://static.solved.ac/tier_small/6.svg" height="25" align="center"/> | [문자열](https://www.acmicpc.net/workbook/view/14409) |
+||| [불!](https://www.acmicpc.net/problem/4179) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | [BFS](https://www.acmicpc.net/workbook/view/7313) |
+|| 24.02.25 (일) | [캐슬 디펜스](https://www.acmicpc.net/problem/17135) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
+-->
 
 <!-- problem table template
 
