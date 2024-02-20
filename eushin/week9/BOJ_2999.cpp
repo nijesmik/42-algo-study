@@ -33,7 +33,6 @@ void Solution()
 			arr[i][j] = encrypted_msg[idx];
 			idx++;
 		}
-		cout << "\n";
 	}
 
 	for (int i = 0; i < R; i++)
