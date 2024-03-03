@@ -47,15 +47,21 @@
 || 24.02.24 (토) | [이름 궁합](https://www.acmicpc.net/problem/15312) | <img src="https://static.solved.ac/tier_small/6.svg" height="25" align="center"/> | [문자열](https://www.acmicpc.net/workbook/view/14409) |
 ||| [불!](https://www.acmicpc.net/problem/4179) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | [BFS](https://www.acmicpc.net/workbook/view/7313) |
 || 24.02.25 (일) | [캐슬 디펜스](https://www.acmicpc.net/problem/17135) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
-| week10 | 24.02.29 (목) | [차집합](https://www.acmicpc.net/problem/1822) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> | - |
-||| [테트로미노](https://www.acmicpc.net/problem/14500) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | - |
-|| 24.03.03 (일) | [한국이 그리울 땐 서버에 접속하지](https://www.acmicpc.net/problem/9996) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | - |
-||| [세 수의 합](https://www.acmicpc.net/problem/2295) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | - |
-<!-- 
 | week10 | 24.02.29 (목) | [차집합](https://www.acmicpc.net/problem/1822) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> | [이분탐색](https://www.acmicpc.net/workbook/view/8400) |
 ||| [테트로미노](https://www.acmicpc.net/problem/14500) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
 || 24.03.03 (일) | [한국이 그리울 땐 서버에 접속하지](https://www.acmicpc.net/problem/9996) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | [문자열](https://www.acmicpc.net/workbook/view/14409) |
 ||| [세 수의 합](https://www.acmicpc.net/problem/2295) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | [이분탐색](https://www.acmicpc.net/workbook/view/8400) |
+| week11 | 24.03.07 (목) | [피보나치 수 2](https://www.acmicpc.net/problem/2748) | <img src="https://static.solved.ac/tier_small/5.svg" height="25" align="center"/> | - |
+||| [보물](https://www.acmicpc.net/problem/1026) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> | - |
+||| [드래곤 커브](https://www.acmicpc.net/problem/15685) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/> | - |
+|| 24.03.10 (일) | [1로 만들기 2](https://www.acmicpc.net/problem/12852) | <img src="https://static.solved.ac/tier_small/10.svg" height="25" align="center"/> | - |
+||| [A와 B](https://www.acmicpc.net/problem/12904) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | - |
+<!--
+| week11 | 24.03.07 (목) | [피보나치 수 2](https://www.acmicpc.net/problem/2748) | <img src="https://static.solved.ac/tier_small/5.svg" height="25" align="center"/> | [다이나믹 프로그래밍](https://www.acmicpc.net/workbook/view/7319) |
+||| [보물](https://www.acmicpc.net/problem/1026) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> | [그리디](https://www.acmicpc.net/workbook/view/7320) |
+||| [드래곤 커브](https://www.acmicpc.net/problem/15685) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
+|| 24.03.10 (일) | [1로 만들기 2](https://www.acmicpc.net/problem/12852) | <img src="https://static.solved.ac/tier_small/10.svg" height="25" align="center"/> | [다이나믹 프로그래밍](https://www.acmicpc.net/workbook/view/7319) |
+||| [A와 B](https://www.acmicpc.net/problem/12904) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [그리디](https://www.acmicpc.net/workbook/view/3978) |
 -->
 
 <!-- problem table template
