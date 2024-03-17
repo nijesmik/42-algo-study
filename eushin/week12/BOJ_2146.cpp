@@ -1,108 +1,105 @@
 #include <iostream>
+#include <algorithm>
+#include <vector>
 #include <queue>
+#include <utility>
 using namespace std;
 
-int N, cnt;
-int board[100][100];
-int visited[100][100];
-int dist[100][100];
-queue<pair<int, int>> land[5001];
-int dx[4] = {1, 0, -1, 0};
-int dy[4] = {0, 1, 0, -1};
+int board[102][102];
+bool check[102][102];
+int dx[4] = { -1,1,0,0 };
+int dy[4] = { 0,0,-1,1 };
+int num = 1, N;
+queue<pair<int, int>> q;
+vector<pair<int, int>> vp;
 
-void Input()
-{
+void Input() {
 	cin >> N;
 	for (int i = 0; i < N; i++)
 		for (int j = 0; j < N; j++)
 			cin >> board[i][j];
 }
 
-int FindLand()
+int bfs(int x, int y)
 {
-    int landCnt = 0;
-    for (int i = 0; i < N; i++)
+	int dist[102][102] = { 0, };
+	int mindist = 1e8;
+	q.push({ x,y });
+	dist[x][y] = 0;
+	while (!q.empty())
 	{
-        for (int j = 0; j < N; j++)
+		auto cur = q.front();
+		q.pop();
+		for (int k = 0; k < 4; k++)
 		{
-            if (board[i][j] == 0 || visited[i][j])
+			int nx = cur.first + dx[k];
+			int ny = cur.second + dy[k];
+			if (nx < 0 || nx >= N || ny < 0 || ny >= N)
 				continue;
-            queue<pair<int, int>> Q;
-            Q.push({i, j});
-            visited[i][j] = ++landCnt;
-
-			while (!Q.empty())
+			if (dist[nx][ny] != 0)
+				continue;
+			if (board[nx][ny] == board[x][y])
+				continue;
+			if (board[nx][ny] != board[x][y] && board[nx][ny] != 0)
 			{
-				int curX = Q.front().first;
-				int curY = Q.front().second;
-                Q.pop();
-                bool isBorder = false;
-                for (int d = 4; d--;)
-				{
-                    int nx = curX + dx[d];
-					int ny = curY + dy[d];
-                    if (nx < 0 || nx >= N || ny < 0 || ny >= N)
-						continue;
-                    if (visited[nx][ny])
-						continue;
-                    if (board[nx][ny] == 0)
-					{
-                        isBorder = true;
-                        continue;
-                    }
-                    visited[nx][ny] = landCnt;
-                    Q.push({nx, ny});
-                }
-                if (isBorder)
-					land[landCnt].push({curX, curY});
-            }
-        }
-    }
-    return landCnt;
-}
-
-int MakeBridge(int landNum)
-{
-	queue<pair<int, int>> Q = land[landNum];
-
-    while(!Q.empty())
-	{
-		int curX = Q.front().first;
-		int curY = Q.front().second;
-        for (int d = 4; d--;)
-		{
-            int nx = curX + dx[d];
-			int ny = curY + dy[d];
-            if (nx < 0 || nx >= N || ny < 0 || ny >= N)
+				mindist = min(mindist, dist[cur.first][cur.second]);
 				continue;
-            if (visited[nx][ny] == landNum)
-				continue;
-            if (board[nx][ny] == 0)
-			{
-                visited[nx][ny] = landNum;
-                dist[nx][ny] = dist[curX][curY] + 1;
-                Q.push({nx, ny});
-            }
-            else
-				return dist[curX][curY];
-        }
-    }
-    return 200;
+			}
+			dist[nx][ny] = dist[cur.first][cur.second] + 1;
+			q.push({ nx,ny });
+		}
+	}
+	return mindist;
 }
 
 void Solution()
 {
-	cnt = FindLand();
-    int ans = 200;
-    for (int i = 1; i <= cnt; i++)
-        ans = min(ans, MakeBridge(i));
-    cout << ans;
+	for (int i = 0; i < N; i++)
+	{
+		for (int j = 0; j < N; j++)
+		{
+			if (board[i][j] == 1 && check[i][j] == false)
+			{
+				q.push({ i,j });
+				check[i][j] = 1;
+				board[i][j] = num;
+				while (!q.empty())
+				{
+					auto cur = q.front();
+					q.pop();
+					for (int k= 0; k < 4; k++)
+					{
+						int nx = cur.first + dx[k];
+						int ny = cur.second + dy[k];
+						if (nx < 0 || nx >= N || ny < 0 || ny >= N)
+							continue;
+						if (check[nx][ny])
+							continue;
+						if (board[nx][ny] == 0)
+						{
+							vp.push_back({ cur.first,cur.second });
+							continue;
+						}
+						check[nx][ny] = 1;
+						board[nx][ny] = num;
+						q.push({ nx,ny });
+					}
+				}
+				num++;
+			}
+		}
+	}
+    sort(vp.begin(),vp.end());
+	vp.erase(unique(vp.begin(), vp.end()), vp.end());
+	int resultdist = 1e9;
+	for (int i = 0; i < vp.size(); i++)
+		resultdist = min(resultdist,bfs(vp[i].first, vp[i].second));
+	cout << resultdist;
 }
 
-int main()
-{
-    ios::sync_with_stdio(0);
-    cin.tie(0); cout.tie(0);
+int main() {
+	ios::sync_with_stdio(0);
+	cin.tie(0); cout.tie(0);
 
 	Input();
 	Solution();
