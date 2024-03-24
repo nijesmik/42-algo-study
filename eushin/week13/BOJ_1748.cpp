@@ -9,12 +9,6 @@ void Input()
 
 void Solution()
 {
-	if (N < 10)
-	{
-		cout << N;
-		return;
-	}
-
 	for (int i = 1; i <= N; i *= 10)
 		cnt += N - i + 1;
 
