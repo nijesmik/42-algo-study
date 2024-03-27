@@ -60,15 +60,19 @@
 ||| [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
 || 24.03.17 (일) | [Java vs C++](https://www.acmicpc.net/problem/3613) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | [문자열](https://www.acmicpc.net/workbook/view/14409) |
 ||| [다리 만들기](https://www.acmicpc.net/problem/2146) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/> | [BFS](https://www.acmicpc.net/workbook/view/7313) |
-| week13 | 24.03.21 (목) | [수 이어 쓰기 1](https://www.acmicpc.net/problem/1748) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> | - |
-||| [타일 채우기](https://www.acmicpc.net/problem/2133) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | - |
-|| 24.03.24 (일) | [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> | - |
-||| [사다리 조작](https://www.acmicpc.net/problem/15684) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/> | - |
-<!-- 
 | week13 | 24.03.21 (목) | [수 이어 쓰기 1](https://www.acmicpc.net/problem/1748) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> | [브루트 포스](https://www.acmicpc.net/workbook/view/9371) |
 ||| [타일 채우기](https://www.acmicpc.net/problem/2133) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | [다이나믹 프로그래밍](https://www.acmicpc.net/workbook/view/7319) |
 || 24.03.24 (일) | [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> | [그래프](https://www.acmicpc.net/workbook/view/9562) |
 ||| [사다리 조작](https://www.acmicpc.net/problem/15684) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |
+| week14 | 24.03.28 (목) | [이전 순열](https://www.acmicpc.net/problem/10973) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | - |
+||| [IPv6](https://www.acmicpc.net/problem/3107) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | - |
+|| 24.03.31 (일) | [기타 레슨](https://www.acmicpc.net/problem/2343) | <img src="https://static.solved.ac/tier_small/10.svg" height="25" align="center"/> | - |
+||| [종이 조각](https://www.acmicpc.net/problem/14391) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/> | - |
+<!--
+| week14 | 24.03.28 (목) | [이전 순열](https://www.acmicpc.net/problem/10973) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> | [브루트 포스 - 순열](https://www.acmicpc.net/workbook/view/9374) |
+||| [IPv6](https://www.acmicpc.net/problem/3107) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> | [문자열](https://www.acmicpc.net/workbook/view/14409) |
+|| 24.03.31 (일) | [기타 레슨](https://www.acmicpc.net/problem/2343) | <img src="https://static.solved.ac/tier_small/10.svg" height="25" align="center"/> | [이분 탐색](https://www.acmicpc.net/workbook/view/3985) |
+||| [종이 조각](https://www.acmicpc.net/problem/14391) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/> | [브루트 포스 - 비트마스크](https://www.acmicpc.net/workbook/view/9375) | 
  -->
 
 <!-- problem table template
