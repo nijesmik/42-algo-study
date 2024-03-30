@@ -14,11 +14,13 @@ public class 연결_요소의_개수 {
         for (int i = 0; i < e; i++) {
             union(sc.nextInt(), sc.nextInt());
         }
-        Set<Integer> parents = new HashSet<>();
+        int ans = 0;
         for (int i = 1; i <= n; i++) {
-            parents.add(parent(i));
+            if (nodes[i] == i) {
+                ans++;
+            }
         }
-        System.out.println(parents.size());
+        System.out.println(ans);
     }
 
     static int parent(int a) {
