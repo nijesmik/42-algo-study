@@ -7,11 +7,10 @@ public class 문서_검색 {
         String input = sc.nextLine();
         String target = sc.nextLine();
 
-        int cnt = 0, index = input.indexOf(target);
-        while (index > -1) {
+        int cnt = 0;
+        while (input.contains(target)) {
             cnt++;
-            input = input.substring(index + target.length());
-            index = input.indexOf(target);
+            input = input.substring(input.indexOf(target) + target.length());
         }
         System.out.println(cnt);
     }
