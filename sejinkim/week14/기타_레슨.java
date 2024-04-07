@@ -30,21 +30,13 @@ public class 기타_레슨 {
 
     static boolean isPossible(int time) {
         int sum = 0;
-        int dvd = 0;
+        int dvd = 1;
         for (int lecture : lectures) {
             sum += lecture;
-            if (sum < time) {
-                continue;
-            }
-            dvd++;
             if (sum > time) {
+                dvd++;
                 sum = lecture;
-            } else {
-                sum = 0;
             }
-        }
-        if (sum > 0) {
-            dvd++;
         }
         if (dvd <= dvdSize) {
             ans = time;
