@@ -2,7 +2,8 @@ import java.util.*;
 
 class Main {
 
-    static int boardR, boardC, board[][], height, width, startR, startC, endR, endC;
+    static int boardR, boardC, height, width;
+    static Point start, end;
     static int[] dr = { 1, -1, 0, 0 }, dc = { 0, 0, 1, -1 };
     static boolean[][] visited;
     static List<Point> walls;
@@ -11,12 +12,10 @@ class Main {
         Scanner sc = new Scanner(System.in);
         boardR = sc.nextInt();
         boardC = sc.nextInt();
-        board = new int[boardR][boardC];
         walls = new ArrayList<>();
         for (int i = 0; i < boardR; i++) {
             for (int j = 0; j < boardC; j++) {
                 int item = sc.nextInt();
-                board[i][j] = item;
                 if (item == 1) {
                     walls.add(new Point(i, j));
                 }
@@ -24,23 +23,21 @@ class Main {
         }
         height = sc.nextInt();
         width = sc.nextInt();
-        startR = sc.nextInt() - 1;
-        startC = sc.nextInt() - 1;
-        endR = sc.nextInt() - 1;
-        endC = sc.nextInt() - 1;
+        start = new Point(sc.nextInt() - 1, sc.nextInt() - 1);
+        end = new Point(sc.nextInt() - 1, sc.nextInt() - 1);
         System.out.println(bfs());
     }
 
     static int bfs() {
         visited = new boolean[boardR][boardC];
         Queue<Record> q = new LinkedList<>();
-        q.add(new Record(startR, startC, 0));
+        q.add(new Record(start.r, start.c, 0));
 
         while (!q.isEmpty()) {
             Record cur = q.poll();
             for (int i = 0; i < 4; i++) {
                 int nr = cur.r + dr[i], nc = cur.c + dc[i];
-                if (nr == endR && nc == endC) {
+                if (nr == end.r && nc == end.c) {
                     return cur.time + 1;
                 }
                 if (canGo(nr, nc)) {
