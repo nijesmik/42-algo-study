@@ -71,16 +71,20 @@
 | week15 | 24.04.04 (목) | [겉넓이 구하기](https://www.acmicpc.net/problem/16931) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> | [시뮬레이션과 구현](https://www.acmicpc.net/workbook/view/9380) |
 ||| [공주님의 정원](https://www.acmicpc.net/problem/2457) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/> | [그리디](https://www.acmicpc.net/workbook/view/7320) |
 || 24.04.07 (일) | [문서 검색](https://www.acmicpc.net/problem/1543) | <img src="https://static.solved.ac/tier_small/6.svg" height="25" align="center"/> | [문자열](https://www.acmicpc.net/workbook/view/14409) |
-||| [직사각형 탈출](https://www.acmicpc.net/problem/16973) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | [BFS](https://www.acmicpc.net/workbook/view/9394) |
-| week16 | 24.04.11 (목) | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> | - |
-||| [합이 0](https://www.acmicpc.net/problem/3151) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | - |
-|| 24.04.14 (일) | [수학숙제](https://www.acmicpc.net/problem/2870) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> | - |
-||| [인싸들의 가위바위보](https://www.acmicpc.net/problem/16986) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/> | - |
-<!-- 
+||| [직사각형 탈출](https://www.acmicpc.net/problem/16973) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | [BFS](https://www.acmicpc.net/workbook/view/9394) | 
 | week16 | 24.04.11 (목) | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> | [그래프](https://www.acmicpc.net/workbook/view/9562) |
 ||| [합이 0](https://www.acmicpc.net/problem/3151) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | [이분탐색](https://www.acmicpc.net/workbook/view/8400) |
 || 24.04.14 (일) | [수학숙제](https://www.acmicpc.net/problem/2870) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> | [문자열](https://www.acmicpc.net/workbook/view/14409) |
 ||| [인싸들의 가위바위보](https://www.acmicpc.net/problem/16986) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/> | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) | 
+| week17 | 24.04.25 (목) | [부분수열의 합](https://www.acmicpc.net/problem/1182) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> | - |
+||| [카드 정렬하기](https://www.acmicpc.net/problem/1715) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | - |
+|| 24.04.28 (일) | [DNA](https://www.acmicpc.net/problem/1969) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> | - |
+||| [소수의 연속합](https://www.acmicpc.net/problem/1644) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/> | - |
+<!--
+| week17 | 24.04.25 (목) | [부분수열의 합](https://www.acmicpc.net/problem/1182) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> | [백트래킹](https://www.acmicpc.net/workbook/view/7315) |
+||| [카드 정렬하기](https://www.acmicpc.net/problem/1715) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> | [우선순위 큐](https://www.acmicpc.net/workbook/view/9502) |
+|| 24.04.28 (일) | [DNA](https://www.acmicpc.net/problem/1969) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> | [문자열](https://www.acmicpc.net/workbook/view/14409) |
+||| [소수의 연속합](https://www.acmicpc.net/problem/1644) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/> | [투 포인터](https://www.acmicpc.net/workbook/view/9502) |
  -->
 
 <!-- problem table template
